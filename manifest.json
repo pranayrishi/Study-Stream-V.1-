@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Homework Organizer",
-    "version": "1.0",
+    "version": "100.0",
     "description": "A tool to organize your homework",
     "content_scripts": [
     {
