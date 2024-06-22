@@ -11,10 +11,5 @@
     "action": {
         "default_icon": "icon16.png",
         "default_popup": "popup.html"
-    },
-    "permissions": [
-        "https://www.youtube.com/*",
-        "https://www.facebook.com/*",
-        "https://www.netflix.com/*"
-    ]
+    }
 }
