@@ -6,10 +6,9 @@
     "content_scripts": [
     {
     "matches": ["<all_urls>"],
-    "js": ["Content.js"]  
+    "js": ["Adblocker/Content.js"]
     }
     ],
-    "_comment1": "Maybe update this if adblocker feature doesn't",
     "icons": {
         "128": "icon128.png",
         "48": "icon48.png",
