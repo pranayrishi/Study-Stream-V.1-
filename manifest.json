@@ -3,6 +3,13 @@
     "name": "Homework Organizer",
     "version": "1.0",
     "description": "A tool to organize your homework",
+    "content_scripts": [
+    {
+    "matches": ["<all_urls>"],
+    "js": ["Content.js"]  
+    }
+    ],
+    "_comment1": "Maybe update this if adblocker feature doesn't",
     "icons": {
         "128": "icon128.png",
         "48": "icon48.png",
@@ -11,5 +18,11 @@
     "action": {
         "default_icon": "icon16.png",
         "default_popup": "popup.html"
-    }
+    },
+    "permissions": [
+        "https://www.youtube.com/*",
+        "https://www.facebook.com/*",
+        "https://www.netflix.com/*"
+    ]
+
 }
